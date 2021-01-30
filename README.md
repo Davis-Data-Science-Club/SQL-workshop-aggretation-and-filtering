@@ -14,6 +14,18 @@ familiar with SQL syntax and basic queries.
 
 2. Open a new report editor
 
-3. Question 1
+3. [SQL Syntax Introduction](sql-intro-syntax.md)
 
-4. Question 2
+4. [Question 1](live-workshops/2021-02-10-workshop/question-1.md)
+
+5. Question 2
+
+6. Question 3
+
+## Bonus Resources
+
+https://sqlzoo.net
+
+https://mode.com/sql-tutorial/introduction-to-sql/
+
+https://mode.com/sql-tutorial/understanding-search-functionality/
