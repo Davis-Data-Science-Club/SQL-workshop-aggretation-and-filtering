@@ -54,11 +54,11 @@ LIMIT 25;
   <summary>Solution</summary>
 
   ```SQL
-  SELECT COUNT(*)
-  FROM tutorial.us_flights
-  WHERE dest = 'SFO'
-  GROUP BY origin
-  ORDER BY DESC;
+SELECT origin, COUNT(*) as count 
+FROM tutorial.us_flights
+WHERE dest = 'SFO'
+GROUP BY origin
+ORDER BY count DESC;
   ```
 
 </details>
