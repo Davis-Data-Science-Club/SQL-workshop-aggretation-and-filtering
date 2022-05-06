@@ -1,6 +1,6 @@
 # Question 2
 
-## Using the `tutorial.sf_crimes` Table
+## Using the `tutorial.sf_crime_incidents_cleandate` Table
 
 ### Columns:
 -- incident_num | category | description | day_of_week | date | time | pd_district | resolution | address | lon | lat | location | cleaned_date | id
@@ -9,7 +9,7 @@
 
 ```SQL
 SELECT *
-FROM tutorial.sf_crimes
+FROM tutorial.sf_crime_incidents_cleandate
 LIMIT 25;
 ```
 
@@ -19,7 +19,7 @@ LIMIT 25;
 
   ```SQL
   SELECT DISTINCT category
-  FROM tutorial.sf_crimes
+  FROM tutorial.sf_crime_incidents_cleandate
   ```
 
 </details>
@@ -31,7 +31,7 @@ LIMIT 25;
   ```SQL
   SELECT category, descript, day_of_week, time, pd_district
   FROM tutorial.sf_crime_incidents_cleandate
-  WHERE day_of_week = 'Sunday' AND pd_district = 'PARK'0
+  WHERE day_of_week = 'Sunday' AND pd_district = 'PARK';
   ```
 
 </details>
