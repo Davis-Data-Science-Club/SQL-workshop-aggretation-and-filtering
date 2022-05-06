@@ -16,11 +16,11 @@ familiar with SQL syntax and basic queries.
 
 3. [SQL Syntax Introduction](sql-intro-syntax.md)
 
-4. [Question 1](live-workshops/2021-02-10-workshop/question-1.md)
+4. [Question 1](aggregation-filtering-practice/question-1.md)
 
-5. Question 2
+5. [Question Set 2](aggregation-filtering-practice/question-2.md)
 
-6. Question 3
+6. [Question Set 3](aggregation-filtering-practice/question-3.md)
 
 ## Bonus Resources
 
